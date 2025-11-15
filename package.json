@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start:coindesk": "nodemon coindesk.js",
+    "start:coingecko": "nodemon coingecko.js",
+    "dev": "concurrently \"npm run start:coindesk\" \"npm run start:coingecko\""
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
