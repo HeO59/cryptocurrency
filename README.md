@@ -41,6 +41,6 @@ npm install axios
 # Pour l'exécution en parallèle des deux scripts (concurrently et nodemon)
 npm install concurrently nodemon --save-dev
 
+```
 ---------
 HEO
-```
